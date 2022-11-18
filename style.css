@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    position: relative;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    cursor:context-menu;
+    
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: azure;
+}
+
+
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+
+    
+    
+    
+}
+
+body{
+    background-color:whitesmoke;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    background-color:azure;
+    box-shadow: 0 2px 0 ;
+    width: 100%;
+}
+    
+nav{
+    display: flex;
+    padding: 0 220px;
+    
+    
+    gap: 200px;   
+    
+    
+}
+
+.font{
+    font-weight: 100;
+    
+    
+}
+
+.font:hover{
+    
+    font-weight: bold;
+    
+    
+
+}
+
+
+a{
+    text-decoration: none;
+    
+    color: black;
+}
+
+
+section{
+    height: calc(100vh + 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+section#perfil{
+    height: calc(100vh + 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px;
+    width: 100%;
+    gap: 100px;
+
+
+    
+}
+
+img{
+    width: 400px;
+    height: 350px;
+
+    display: flex;
+
+    border: 2px solid black;
+    
+}
+
+.class-perfil{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    
+    
+    border: 2px solid black;
+    height: 350px;
+    padding: 90px 20px;
+    
+    background-color: azure;
+
+}
+
+
+
+.class-caixas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    
+    
+    border: 2px solid black;
+    height: 350px;
+    width: 600px;
+
+    
+    background-color: azure;
+}
+
+
+    
+
+
+
+
+
+.h2{
+    text-align: center;
+    padding: 45px ;
+}
+
+.span{
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+section#cont{
+    height: calc(100vh + 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+
+}
+.swiper{
+    width: 100vh;
+    height: 550px;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: black!important;
+}
+
+.swiper-pagination-bullet-active{
+    background-color:black!important;
+}
+    
+
+
+
+#h2X{
+    text-align: center;
+}
+
+#cont form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    width: 100%;
+    padding:20px 150px;
+}
+input, textarea, button{
+    box-shadow: 0 1px 2px;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+button{
+    background-color:black;
+    color: white;
+}
+
+iframe{
+    display: flex;
+    height: 350px;
+    width: 600px;
+    
+
+    
+}
+
+footer{
+    box-shadow: 0 -2px 0 ;
+    padding: 50px;
+    text-align: center;
+
+    background-color: azure;
+    
+    
+}
